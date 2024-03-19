@@ -1,0 +1,212 @@
+/* Fonts */
+@font-face{
+    font-family: 'Lato-Black';
+    src: url('../_fonts/Lato/Lato-Black.ttf');
+}
+@font-face{
+    font-family: 'Lato-BlackItalic';
+    src: url('../_fonts/Lato/Lato-BlackItalic.ttf');
+}
+@font-face{
+    font-family: 'Lato-Bold';
+    src: url('../_fonts/Lato/Lato-Bold.ttf');
+}
+@font-face{
+    font-family: 'Lato-BoldItalic';
+    src: url('../_fonts/Lato/Lato-BoldItalic.ttf');
+}
+@font-face{
+    font-family: 'Lato-Italic';
+    src: url('../_fonts/Lato/Lato-Italic.ttf');
+}
+@font-face{
+    font-family: 'Lato-Light';
+    src: url('../_fonts/Lato/Lato-Light.ttf');
+}
+@font-face{
+    font-family: 'Lato-LightItalic';
+    src: url('../_fonts/Lato/Lato-LightItalic.ttf');
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('../_fonts/Lato/Lato-Regular.ttf');
+}
+@font-face{
+    font-family: 'Lato-Thin';
+    src: url('../_fonts/Lato/Lato-Thin.ttf');
+}
+@font-face{
+    font-family: 'Lato-ThinItalic';
+    src: url('../_fonts/Lato/Lato-ThinItalic.ttf');
+}
+
+
+:root{
+    --primary: #2644F0;
+    --secondary: #fff;
+    --success: #ABD31A;
+    --danger: #F14D2E;
+    --warning: #FF9100; 
+    --blue: #0086FF;
+    --purple: #652284;
+    --yellow: #FFCE00;
+    --darkText: #005E4C;
+    --lightText: #00AEFF;
+    --bar: #C7E2EE;
+
+
+    /* Fonts */
+    --lato-Black: 'Lato-Black';
+    --lato-BlackItalic: 'Lato-BlackItalic';
+    --lato-Bold: 'Lato-Bold';
+    --lato-BoldItalic: 'Lato-BoldItalic';
+    --lato-Italic: 'Lato-Italic';
+    --lato-Light: 'Lato-Light';
+    --lato-LightItalic: 'Lato-LightItalic';
+    --lato-Regular: 'Lato-Regular';
+    --lato-Thin: 'Lato-Thin';
+    --lato-ThinItalic: 'Lato-ThinItali';
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--lato-Regular);
+}
+
+/* visibiliti */
+.--visibilityHidden{
+    visibility: hidden;
+}
+/* Display */
+.--displayNoneGrl{
+    display: none;
+}
+
+
+/* Align */
+.textAlign--center{
+    text-align: center;
+}
+
+.textAlign--right{
+    text-align: right;
+}
+
+.textAlign--left{
+    text-align: left;
+}
+
+/* Margin */
+.--marginTop10{
+    margin-top: 10px;
+}
+
+/* Padding */
+.--paddingTop25{
+    padding-top: 25px;
+}
+
+
+/* Size titles */
+.title--size{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.subtitle--size{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.body--size{
+    font-size: 1em;
+}
+
+.btn__close{
+    background-color: var(--blue);
+}
+
+
+/* Buttons */
+.btn--small{
+    width: 150px;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn__success--color{
+    background-color: var(--success);
+    color: var(--secondary);
+}
+/* 
+.btn--middle{
+    border-radius: ;
+    width: ;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn--large{
+    border-radius: ;
+    width: ;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+ */
+
+
+/* Alerts */
+.alertGrl__container {
+    display: none;
+    padding: 20px;
+    color: var(--secondary);
+    position: absolute;
+    top: 220px;
+    width: 45%;
+    margin: 20px 34%;
+    text-align: center;
+    z-index: 21;
+    font-size: .8em;
+}
+
+.btn__alertGrl--close{
+    float: right;
+    color: var(--fourth);
+    font-weight: bolder;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.alertGrlMessage{
+    font-size: 1.3em;
+    color: var(--fourth);
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.selects--style{
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: var(--secondary);
+    height: 40px;
+    font-size: 1em; 
+    width: 300px;
+}
