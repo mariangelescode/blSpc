@@ -7,7 +7,7 @@
     <title>Admin Puntos</title>
 </head>
 <body>
-    <p class="title--size title--color textAlign--center --paddingTop25">Administrador de Puntos Mari</p>
+    <p class="title--size title--color textAlign--center --paddingTop25">Administrador de Puntos </p>
     <div class="container__adminPoints">
         <div class="container__addPoints__selects">
             <select class="selects--style" name="center" id="center" onchange="send_action_get_activity()"></select>
