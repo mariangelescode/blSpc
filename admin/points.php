@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./_content/_css/admin.css">
-    <title>Admin Puntos Mari</title>
+    <title>Admin Puntos</title>
 </head>
 <body>
-    <p class="title--size title--color textAlign--center --paddingTop25">Administrador de Puntos</p>
+    <p class="title--size title--color textAlign--center --paddingTop25">Administrador de Puntos Mari</p>
     <div class="container__adminPoints">
         <div class="container__addPoints__selects">
             <select class="selects--style" name="center" id="center" onchange="send_action_get_activity()"></select>
