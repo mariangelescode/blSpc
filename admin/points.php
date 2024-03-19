@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./_content/_css/admin.css">
-    <title>Admin Puntos</title>
+    <title>Admin Puntos Mari</title>
 </head>
 <body>
     <p class="title--size title--color textAlign--center --paddingTop25">Administrador de Puntos</p>
